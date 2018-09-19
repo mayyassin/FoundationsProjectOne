@@ -108,7 +108,7 @@ def get_total_price(order_list):
       for flavor2 in original_flavors:
         if flavor2==item:
           total+=menu["original cupcake"]
-      for flavor3 in menu:
+      for flavor3 in signature_flavors:
         if flavor3==item:
           total+=menu["signature cupcake"]
       
