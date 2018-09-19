@@ -47,37 +47,18 @@ def is_valid_order(order):
     Check if an order exists in the shop.
     """
     # your code goes here!
-    #check=False
     for flavors1 in menu: 
       if order == flavors1:
-        #Total += menu[flavors1]
-        #check=True
         return True
-        #order_list.append(order)
-        #order = True
-      #return order_list
     for flavors2 in original_flavors: 
       if order == flavors2: 
-        #Total += original_flavors[flavors2]
-        #check=True
         return True
-        #order_list.append(order)
-        #order = True
-      #return order_list
     for flavors3 in signature_flavors:
       if order == flavors3: 
-        #Total += signature_flavors[flavors3]
-        #check=True
         return True
-        #order_list.append(order)
-        #order = True
-      #return order_list
     print("Order does not exist")
     return False
     
-
-    
-
 
 def get_order():
     """
